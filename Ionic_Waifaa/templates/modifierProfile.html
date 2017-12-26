@@ -1,0 +1,48 @@
+<ion-view title="Modifier Profile" id="page33">
+  <ion-nav-buttons side="right" class="has-header">
+    <button class="button button-stable icon ion-checkmark" ng-click="edit_profile()"></button>
+  </ion-nav-buttons>
+  <ion-content padding="false" style="background: url(img/uWWTodzYTtDuIfcAExLX_blur.png) no-repeat center;background-size:cover;" class="manual-remove-top-padding has-header">
+    <div class="spacer" style="width: 320px; height: 19px;"></div>
+    <div class="img">
+      <img src="img/DyO8q9vCSvKyHAI1zMjN_background2.jpg" style="display: block; width: 40%; height: 40%; margin-left: auto; margin-right: auto;">
+    </div>
+    <h4 id="modifierProfile-heading40" style="color:#F6F0F0;font-weight:300;text-align:center;" class="profileEditText">Cliquez dans les champs pour modification</h4>
+    <div class="spacer" style="width: 320px; height: 15px;"></div>
+    <h4 id="modifierProfile-heading29" style="color:#E0E0E0;font-weight:300;" class="profileItem">Nom:</h4>
+    <form id="modifierProfile-form11" class="list">
+      <label class="item item-input profileEdit" id="modifierProfile-input25">
+        <input type="text" placeholder="" ng-model="loginData.lname" ng-value="nom">
+      </label>
+      <h4 id="modifierProfile-heading32" style="color:#E0E0E0;font-weight:300;" class="profileItem">Prénom:</h4>
+      <label class="item item-input profileEdit" id="modifierProfile-input27">
+        <input type="text" placeholder="" ng-model="loginData.fname" ng-value="prenom">
+      </label>
+      <h4 id="modifierProfile-heading33" style="color:#E0E0E0;font-weight:300;" class="profileItem">Tel:</h4>
+      <label class="item item-input profileEdit" id="modifierProfile-input28">
+        <input type="text" placeholder="" ng-model="loginData.phone" ng-value="tel">
+      </label>
+      <h4 id="modifierProfile-heading34" style="color:#E0E0E0;font-weight:300;" class="profileItem">Email:</h4>
+      <label class="item item-input profileEdit" id="modifierProfile-input29">
+        <input type="text" placeholder="" ng-model="loginData.email" ng-value="email">
+      </label>
+      <h4 id="modifierProfile-heading35" style="color:#E0E0E0;font-weight:300;" class="profileItem">Adresse:</h4>
+      <label class="item item-input profileEdit" id="modifierProfile-input30">
+        <input type="text" placeholder="" ng-model="loginData.address" ng-value="address">
+      </label>
+      <h4 id="modifierProfile-heading36" style="color:#E0E0E0;font-weight:300;" class="profileItem">Ville:</h4>
+      <label class="item item-input profileEdit" id="modifierProfile-input31">
+        <input type="text" placeholder="" ng-model="loginData.state" ng-value="state">
+      </label>
+      <h4 id="modifierProfile-heading39" style="color:#E0E0E0;font-weight:300;" class="profileItem">Pays:</h4>
+      <label class="item item-input profileEdit" id="modifierProfile-input32">
+        <input type="text" placeholder="" ng-model="loginData.country" ng-value="country">
+      </label>
+      <div class="spacer" style="width: 320px; height: 33px;"></div>
+      <div id="modifierProfile-container14" class="home">
+        <a ui-sref="menu.modifierMotDePasse()" id="modifierProfile-button35" ng-click="change()" style="border-radius:25px 25px 25px 25px;" class="button button-balanced button-small button-outline">Modifier le mot de passe</a>
+      </div>
+      <div class="spacer" style="width: 320px; height: 24px;"></div>
+    </form>
+  </ion-content>
+</ion-view>

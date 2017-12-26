@@ -1,0 +1,31 @@
+<ion-view title="Validation" id="page30" class="home">
+  <ion-content padding="true" style="background: url(img/gAXx6lXAT8ujsIhIM9Gm_blur.png) no-repeat center;background-size:cover;" class="has-header">
+    <div class="spacer" style="width: 300px; height: 32px;"></div>
+    <div>
+      <img src="img/Ky0T7NcQu642BvvuqwnQ_notification2.png" style="display: block; width: 30%; height: auto; margin-left: auto; margin-right: auto;">
+    </div>
+    <h4 id="validation-heading24" style="color:#EBE9E9;font-style:italic;" class="mail">Vous avez reçu un mail!</h4>
+    <div id="validation-markdown46" class="show-list-numbers-and-dots">
+      <p style="color:#CECECE;font-size:11px;">Vérifez votre email</p>
+    </div>
+    <div id="validation-markdown47" class="show-list-numbers-and-dots validation_text">
+      <p style="color:#CECECE;font-size:11px;">pour valider voir votre code.</p>
+    </div>
+    <div class="spacer" style="width: 300px; height: 37px;"></div>
+    <div class="spacer" style="width: 300px; height: 0px;"></div>
+    <form id="validation-form4" class="list">
+      <label class="item item-input form_background" id="validation-input26">
+        <input type="text" placeholder="Entrer le code d'acivation" ng-model="validation.code">
+      </label>
+      <div class="spacer" style="width: 300px; height: 45px;"></div>
+      <button id="validation-button14" ng-click="soumettre()" style="font-weight:600;border-radius:25px 25px 25px 25px;" class="button button-balanced button-small button-outline home_buttons">Soumettre</button>
+    </form>
+    <div id="validation-markdown48" class="show-list-numbers-and-dots">
+      <p style="color:#FFFFFF;font-size:11px;">Si ne voyez par le mail, consulter vos
+        <strong>SPAM</strong>
+      </p>
+    </div>
+    <div class="spacer" style="width: 300px; height: 9px;"></div>
+    <button id="validation-button15" ng-click="sendcode()" class="button button-positive button-small button-block button-clear">Renvoyer le code</button>
+  </ion-content>
+</ion-view>

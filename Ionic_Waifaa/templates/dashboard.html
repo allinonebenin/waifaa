@@ -1,0 +1,18 @@
+<ion-view title="Dashboard" id="page23">
+  <ion-nav-buttons side="right" class="has-header">
+    <button class="button button-stable icon ion-android-person" ng-click="profil()"></button>
+  </ion-nav-buttons>
+  <ion-content padding="true" style="background: url(img/bP3YRvGHQBGNCluO0HkL_blur.png) no-repeat center;background-size:cover;" class="has-header">
+    <div class="spacer" style="width: 300px; height: 29px;"></div>
+    <h4 id="dashboard-heading18" style="color:#FFFFFF;font-weight:600;text-align:center;">Votre souscription :</h4>
+    <div class="spacer" style="width: 300px; height: 161px;"></div>
+    <div id="dashboard-container7" ng-show="noSouscription" class="center-element">
+      <p class="white_text">Vous n'avez pas de souscription en cours </p>
+      <a ui-sref="menu.memberships()" id="dashboard-button21" style="font-style:italic;font-size:14px;border-radius:25px 25px 25px 25px;" class="button button-balanced button-small button-outline home">Visitez nos offres.</a>
+    </div>
+    <div id="dashboard-container8" ng-show="yesSouscription" class="center-element">
+      <p class="white_text">Vous êtes inscrit au bouquet {{souscription}}</p>
+      <a ui-sref="menu.avantages()" id="dashboard-button24" ng-click="startAdvantages()" style="font-style:italic;font-size:14px;border-radius:25px 25px 25px 25px;" class="button button-balanced button-small button-outline home">Vérifiez vos avantages</a>
+    </div>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,29 @@
+<ion-view title="Login" id="page20" class="home">
+  <ion-content padding="true" style="background: url(img/UeXfAluhRIiKWQ6oC7Cl_blur.png) no-repeat center;background-size:cover;" class="manual-remove-top-padding has-header">
+    <form id="login-form1" class="list">
+      <div class="spacer" style="width: 300px; height: 51px;"></div>
+      <div>
+        <img src="img/hCHWejL0ThucD5wpQLxT_waif.png" style="display: block; width: 30%; height: 30%; margin-left: auto; margin-right: auto;">
+      </div>
+      <div id="login-markdown27" class="show-list-numbers-and-dots">
+        <p style="color:#C92424;">{{error}}</p>
+      </div>
+      <div id="login-markdown26" class="show-list-numbers-and-dots">
+        <p style="color:#24C95F;">{{succes}}</p>
+      </div>
+      <ion-list id="login-list2" class="home">
+        <label class="item item-input form_background" id="login-input1">
+          <input type="text" placeholder="N° de téléphone" ng-model="loginData.username">
+        </label>
+        <label class="item item-input form_background" id="login-input2">
+          <input type="password" placeholder="Mot de Passe" ng-model="loginData.password">
+        </label>
+      </ion-list>
+      <div class="spacer" style="width: 300px; height: 26px;"></div>
+      <button id="login-button17" ng-click="doLogin()" style="font-weight:600;font-style:italic;font-size:13px;border-radius:25px 25px 25px 25px;" class="button button-balanced button-small button-outline home_buttons forgetPass">Log In</button>
+      <a ui-sref="menu.motDePasseOubli()" id="login-button19" style="font-style:italic;" class="button button-positive button-small button-block button-clear">Mot de passe oublié.</a>
+      <div class="spacer" style="width: 300px; height: 9px;"></div>
+      <a ui-sref="menu.souscrire()" id="login-button37" class="button button-positive button-block button-clear">Or create an account</a>
+    </form>
+  </ion-content>
+</ion-view>

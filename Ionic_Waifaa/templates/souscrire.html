@@ -1,0 +1,42 @@
+<ion-view title="Souscrire" hide-nav-bar="true" id="page22" class="home" gf="bvj">
+  <ion-content padding="true" style="background: url(img/BXVj0QwdQfK0c4UKrgzc_blur.png) no-repeat center;background-size:cover;" class=" manual-remove-top-padding">
+    <div>
+      <img src="img/hCHWejL0ThucD5wpQLxT_waif.png" style="display: block; width: 30%; height: 30%; margin-left: auto; margin-right: auto;">
+    </div>
+    <form id="souscrire-form3" class="list">
+      <div class="spacer" style="width: 300px; height: 38px;"></div>
+      <div id="souscrire-markdown31" class="show-list-numbers-and-dots">
+        <p style="color:#C92424;">{{error}}</p>
+      </div>
+      <div id="souscrire-markdown32" class="show-list-numbers-and-dots">
+        <p style="color:#24C95F;">{{succes}}</p>
+      </div>
+      <ion-list id="souscrire-list4">
+        <label class="item item-input form_background" id="souscrire-input6">
+          <input type="text" placeholder="Nom" ng-model="loginData.lname">
+        </label>
+        <label class="item item-input form_background" id="souscrire-input7">
+          <input type="text" placeholder="Prénom" ng-model="loginData.fname">
+        </label>
+        <label class="item item-input form_background" id="souscrire-input8">
+          <input type="text" placeholder="N° de Téléphone" ng-model="loginData.phone">
+        </label>
+        <label class="item item-input form_background" id="souscrire-input9">
+          <input type="text" placeholder="Email" ng-model="loginData.email">
+        </label>
+        <label class="item item-input form_background" id="souscrire-input10">
+          <input type="text" placeholder="Adresse" ng-model="loginData.adresse">
+        </label>
+        <label class="item item-input form_background" id="souscrire-input11">
+          <input type="password" placeholder="Mot de Passe" ng-model="loginData.password">
+        </label>
+        <label class="item item-input form_background" id="souscrire-input12">
+          <input type="password" placeholder="Valider Mot de Passe" ng-model="loginData.newpassword">
+        </label>
+      </ion-list>
+      <div class="spacer" style="width: 300px; height: 36px;"></div>
+      <button id="souscrire-button22" ng-click="doSouscrire()" style="font-weight:600;font-style:italic;font-size:13px;border-radius:25px 25px 25px 25px;" class="button button-balanced button-small button-outline home_buttons">S'inscrire</button>
+      <a ui-sref="menu.login()" id="souscrire-button23" class="button button-positive button-block button-clear">Or Log in</a>
+    </form>
+  </ion-content>
+</ion-view>

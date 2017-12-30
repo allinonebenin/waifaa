@@ -256,6 +256,9 @@ function ($scope, $stateParams, $ionicModal,$timeout,$ionicPopup,$http,$state,$i
                 if(res.data=="true"){// if the password is modified succefully
                     $scope.succes="Mot de passe modifié avec succès!";
                     $scope.error="";
+		    window.localStorage.removeItem('user'); // delete user id from the local storage
+		    window.localStorage.removeItem('phone'); // delete user phone number from the local storage
+		    $state.go('menu.login',{},{location:"replace",reload:true}); // go to login page
 
                 }
                 else if(res.data=="actualfalse"){ // if the actual password doesn't match

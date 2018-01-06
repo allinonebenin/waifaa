@@ -1,0 +1,23 @@
+Install the latest version of the local Ionic CLI installed by typing the command:
+
+npm install -g ionic@latest
+
+To start a new Ionic project, type the command:
+
+ionic start myapp --type ionic1
+
+Now go into the newly created myapp directory, and you will see directory called www inside.
+
+Delete everything inside of the www folder, and the files of "WAIFAA_ionic" into the www folder. The directory structure should look like:
+
+
+Next, move the directory called SCSS-MOVEME up one directory, and rename it to scss. This directory should now sit side-by-side with the www directory.
+
+Now, run the command npm install from directly inside the myapp folder. This will install gulp.js and a few handy tasks, such as gulp-sass and gulp-minify-css.
+
+Finally, in the ionic.config.json file, add the JavaScript property "gulpStartupTasks": ["sass", "watch"].
+
+What is missing missing ?
+- put a template in the email sending 
+- verify user entry for more security
+- a bug on membership list, this seems to be an 

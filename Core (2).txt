@@ -1,0 +1,4 @@
+http://www.brianlinkletter.com/how-to-customize-core-network-emulator-services/
+http://www.brianlinkletter.com/persistent-configuration-changes-in-tinycore-linux/
+http://www.brianlinkletter.com/core-network-emulator-updated-to-4-8/#more-3666
+http://www.brianlinkletter.com/tag/core/
